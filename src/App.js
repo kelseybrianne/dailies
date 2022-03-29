@@ -42,12 +42,12 @@ function App() {
     <>
       <header>Dailies</header>
       <div className="appBody"></div>
-      <div className="addToDoDiv">
+      <form onSubmit={handleAddTodo} className="addToDoDiv">
         <input className="todoInput" ref={todoNameRef} type="text" />
-        <button className="addToDoBtn" onClick={handleAddTodo}>
+        <button className="addToDoBtn" type="submit" onClick={handleAddTodo}>
           Add Todo
         </button>
-      </div>
+      </form>
       <div class="todoList">
         <TodoList todos={todos} toggleTodo={toggleTodo} />
         <div className="todosLeft">
