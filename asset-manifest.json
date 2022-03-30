@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dailies/static/css/main.dca2dce3.css",
+    "main.js": "/dailies/static/js/main.7d610675.js",
+    "index.html": "/dailies/index.html",
+    "main.dca2dce3.css.map": "/dailies/static/css/main.dca2dce3.css.map",
+    "main.7d610675.js.map": "/dailies/static/js/main.7d610675.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dca2dce3.css",
+    "static/js/main.7d610675.js"
+  ]
+}
